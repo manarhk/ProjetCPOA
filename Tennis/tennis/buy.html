@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="buy.css">
+    <link rel="stylesheet" href="lightslider.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="lightslider.js"></script>
+    <!-- NAV BAR -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+
+<header>
+
+    <nav>
+
+        <div class="logo">
+            <!--- <i class="fas fa-rocket"></i>-->
+            <i class="fas fa-baseball-ball"></i>
+            <a href="pagehome.html"></a> <label class="logoo">Open Parc de Tennis</label>
+        </div>
+        <div class="toggle">
+            <i class="fas fa-bars ouvrir"></i>
+            <i class="fas fa-times fermer"></i>
+        </div>
+
+        <ul class="menu">
+            <!-- <li class="logo"><ahref="page1degarde.html"><img src="img/ok.jpg" alt="logo"  /></a></li>-->
+
+            <li><b><a href="pagehome.html">Accueil</a></li></b>
+            <li><b><a href="joueurs.html">Joueurs</a></li></b>
+            <li><b><a href="pagetournoi.html">Tournoi</a></li></b>
+            <li><b><a href="pagebillets.html">Billettrie</a></li></b>
+            <li><b><a href="#">Contact</a></li></b>
+            <!--<li><button class="btn">Inscription</button></li>-->
+            <!-- <li><button class="btn btn-secondary">Connexion</button></li>-->
+        </ul>
+    </nav>
+</header>
+
+
+<body>
+<div class="containerp">
+
+    <h1>Confirm Your Payment</h1>
+
+    <div class="first-row">
+        <div class="owner">
+            <h3>Titulaire de carte</h3>
+            <div class="input-field">
+                <input type="text">
+            </div>
+        </div>
+
+
+        <div class="cvv">
+            <h3>CVV2</h3>
+            <div class="input-field">
+                <input type="password">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="second-row">
+        <div class="card-number">
+            <h3>Numéro de carte</h3>
+            <div class="input-field">
+                <input type="text">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="third-row">
+        <h3>Année</h3>
+        <div class="selection">
+            <div class="date">
+                <select name="months" id="months">
+                    <option value="Jan">Jan</option>
+                    <option value="Feb">Feb</option>
+                    <option value="Mar">Mar</option>
+                    <option value="Apr">Apr</option>
+                    <option value="May">May</option>
+                    <option value="Jun">Jun</option>
+                    <option value="Jul">Jul</option>
+                    <option value="Aug">Aug</option>
+                    <option value="Sep">Sep</option>
+                    <option value="Oct">Oct</option>
+                    <option value="Nov">Nov</option>
+                    <option value="Dec">Dec</option>
+                </select>
+
+
+                <select name="years" id="years">
+                    <option value="2020">2020</option>
+                    <option value="2019">2019</option>
+                    <option value="2018">2018</option>
+                    <option value="2017">2017</option>
+                    <option value="2016">2016</option>
+                    <option value="2015">2015</option>
+                </select>
+            </div>
+
+
+            <div class="cards">
+                <img src="img/mc.png" alt="">
+                <img src="img/vi.png" alt="">
+                <img src="img/pp.png" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="login-box">
+        <form>
+            <a href="" style="background-color: green"> Confirmer </a>
+        </form>
+    </div>
+</div>
+</body>
+<!-- FOOTER -->
+
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="items">
+
+                <div class="social">
+                    <h2> Social media </h2>
+                    <ul></ul>
+                    <li></li><a href="#"><i class="fa fa-facebook"></i> Facebook</a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i>Twitter</a></li>
+                    <li><a href="#"><i class="fa fa-youtube-play">Youtube</i></a></li>
+                    <li> <a href="#"><i class="fa fa-github"></i>Github</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="items">
+                <h2> Product</h2>
+                <ul>
+                    <li><a href="#">Chrome Extension</a></li>
+                    <li><a href="#">Email Finder</a></li>
+                    <li><a href="#">Bulk Email Finder</a></li>
+                    <li><a href="#">Companies</a></li>
+
+                </ul>
+            </div>
+
+            <div class="items">
+                <h2>Legal</h2>
+                <ul>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                    <li><a href="#">GDPR Compliance</a></li>
+                </ul>
+            </div>
+
+
+        </div>
+        <hr>
+        <p class="end">Copyright © 2022 by Team informaclics All rights reserved.</p>
+    </div>
+</footer>
+</html>
